@@ -1,0 +1,12 @@
+Flex State Machine, A best approximation of a DSL.
+
+This is a heavy WIP, nonetheless it works well in our production code.
+To make the state machine as 'DSL' like as possible i've tried to take 
+advantage of mixins to allow one class to 'act_as' a state machine. This part 
+hasn't worked out so well, but it is my intention to make it happen if
+at all possible.
+
+All code is under the MIT license.
+
+Rasheed Abdul-Aziz
+Visfleet.
