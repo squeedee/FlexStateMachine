@@ -6,6 +6,8 @@ advantage of mixins to allow one class to 'act_as' a state machine. This part
 hasn't worked out so well, but it is my intention to make it happen if
 at all possible.
 
+Samples and Docs shortly.
+
 All code is under the MIT license.
 
 Rasheed Abdul-Aziz
