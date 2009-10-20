@@ -107,8 +107,10 @@ package com.visfleet.stateMachine {
 				}
 			} 
 
-
-			trace("Warning: State Machine could not transition from '" + currentState.name + "' on event '" + name + "'");			
+			if (!testOnly) {
+				trace("Warning: State Machine could not transition from '" + currentState.name + "' on event '" + name + "'");
+			}
+							
 			return false;			
 		}
 		
